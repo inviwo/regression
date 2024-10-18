@@ -1,0 +1,92 @@
+[
+    {
+        "name": "Gaussian-time-1x1",
+        "quantity": "frequency",
+        "unit": "Hz",
+        "value": 0.01686765067279339
+    },
+    {
+        "name": "Gaussian-time-3x3",
+        "quantity": "frequency",
+        "unit": "Hz",
+        "value": 0.05960657726973295
+    },
+    {
+        "name": "Gaussian-time-5x5",
+        "quantity": "frequency",
+        "unit": "Hz",
+        "value": 0.06115004979074001
+    },
+    {
+        "name": "Gaussian-time-10x10",
+        "quantity": "frequency",
+        "unit": "Hz",
+        "value": 0.07199503667652607
+    },
+    {
+        "name": "Gaussian-time-15x15",
+        "quantity": "frequency",
+        "unit": "Hz",
+        "value": 0.09102760441601276
+    },
+    {
+        "name": "Gaussian-time-30x30",
+        "quantity": "frequency",
+        "unit": "Hz",
+        "value": 0.06242834962904453
+    },
+    {
+        "name": "Gaussian-time-32x32",
+        "quantity": "frequency",
+        "unit": "Hz",
+        "value": 0.06262381561100483
+    },
+    {
+        "name": "Box-time-1x1",
+        "quantity": "frequency",
+        "unit": "Hz",
+        "value": 0.05491124093532562
+    },
+    {
+        "name": "Box-time-2x2",
+        "quantity": "frequency",
+        "unit": "Hz",
+        "value": 0.06575461197644472
+    },
+    {
+        "name": "Box-time-3x3",
+        "quantity": "frequency",
+        "unit": "Hz",
+        "value": 0.06215937249362469
+    },
+    {
+        "name": "Box-time-5x5",
+        "quantity": "frequency",
+        "unit": "Hz",
+        "value": 0.06342189759016037
+    },
+    {
+        "name": "Box-time-11x11",
+        "quantity": "frequency",
+        "unit": "Hz",
+        "value": 0.06473539490252733
+    },
+    {
+        "name": "Box-time-17x17",
+        "quantity": "frequency",
+        "unit": "Hz",
+        "value": 0.07618335820734501
+    },
+    {
+        "name": "Box-time-32x32",
+        "quantity": "frequency",
+        "unit": "Hz",
+        "value": 0.07142033521085978
+    },
+    {
+        "name": "Box-time-60x60",
+        "quantity": "frequency",
+        "unit": "Hz",
+        "value": 0.08597085159271955
+    }
+]
