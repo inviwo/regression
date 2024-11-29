@@ -1,0 +1,59 @@
+<div class='info'>Inviwo (v0.9.12-pre) Log File</div>
+<div class='info nowrap'>Created at: 2024-11-29 09:50:31 </div>
+<div class='warn nowrap'><span class='level'>Warn: </span>(getStdLocale:64) Locale could not be set to &apos;en_SE.UTF-8&apos;, collate_byname&lt;char&gt;::collate_byname failed to construct for en_SE.UTF-8</div>
+<div class='warn nowrap'><span class='level'>Warn: </span>(getStdLocale:59) Falling back to locale &apos;en_US.UTF-8&apos;</div>
+<div class='info nowrap'><span class='level'>Info: </span>(InviwoInfo:258) Inviwo Version: 0.9.12-pre</div>
+<div class='info nowrap'><span class='level'>Info: </span>(InviwoInfo:265) Base Path: &quot;/Users/jenkins/actions-runner/_work/modules/modules/inviwo&quot;</div>
+<div class='info nowrap'><span class='level'>Info: </span>(InviwoInfo:266) ThreadPool Worker Threads: 0</div>
+<div class='info nowrap'><span class='level'>Info: </span>(InviwoInfo:268) Config: Xcode [RelWithDebInfo] AppleClang (16.0.0.16000026)</div>
+<div class='info nowrap'><span class='level'>Info: </span>(InviwoInfo:88) Qt Version 6.7.2</div>
+<div class='info nowrap'><span class='level'>Info: </span>(CImgModule:71) Using LibJPG Version 62</div>
+<div class='info nowrap'><span class='level'>Info: </span>(CImgModule:72) Using OpenEXR Version 3.3.1</div>
+<div class='info nowrap'><span class='level'>Info: </span>(PythonInterpreter:75) Python version: 3.12.6 (main, Sep  6 2024, 19:03:47) [Clang 15.0.0 (clang-1500.3.9.4)]</div>
+<div class='info nowrap'><span class='level'>Info: </span>(pngModule:48) Using LibPNG Version 1.6.43</div>
+<div class='warn nowrap'><span class='level'>Warn: </span>(ProcessorFactory:67) Processor &apos;org.inviwo.LayoutMergeTree&apos; in module &apos;Unknown&apos; has category &quot;Undefined&quot;</div>
+<div class='info nowrap'><span class='level'>Info: </span>(OpenMeshModule:64) OpenMesh version: 0.160.0</div>
+<div class='warn nowrap'><span class='level'>Warn: </span>(Python:180) Failed to load python processor: &apos;ImageRecorder&apos; due to missing module: &apos;imageio&apos;. File: /Users/jenkins/actions-runner/_work/modules/modules/modules/misc/pythontools/processors/ImageRecorder.py<br/><br/>Note: Inviwo will not access user site-package folders. Make sure to install the packages site-wide or add<br/>your user site-package folder to the environment variable `PYTHONPATH`,<br/>for example &quot;PYTHONPATH=%appdata%\Python\Python311\site-packages&quot;.</div>
+<div class='warn nowrap'><span class='level'>Warn: </span>(Python:180) Failed to load python processor: &apos;MolecularStructureSource&apos; due to missing module: &apos;Bio&apos;. File: /Users/jenkins/actions-runner/_work/modules/modules/modules/molvis/molvispython/python/processors/MolecularStructureSource.py</div>
+<div class='info nowrap'><span class='level'>Info: </span>(OpenGLInfo:0) GPU Vendor: Intel Inc.</div>
+<div class='info nowrap'><span class='level'>Info: </span>(OpenGLInfo:0) GPU Renderer: Intel(R) UHD Graphics 630</div>
+<div class='info nowrap'><span class='level'>Info: </span>(OpenGLInfo:0) Dedicated video memory: UNKNOWN</div>
+<div class='info nowrap'><span class='level'>Info: </span>(OpenGLInfo:0) OpenGL Version: 4.1 INTEL-22.5.12</div>
+<div class='info nowrap'><span class='level'>Info: </span>(OpenGLInfo:0) OpenGL Profile: Core</div>
+<div class='info nowrap'><span class='level'>Info: </span>(OpenGLInfo:0) GLSL version: 4.10</div>
+<div class='warn nowrap'><span class='level'>Warn: </span>(ProcessorNetwork:272) Loading old workspace (/Users/jenkins/actions-runner/_work/modules/modules/inviwo/modules/basegl/tests/regression/instance_renderer_animation/instance_renderer_animation.inv) Module version: Base. Updating to version: 7.</div>
+<div class='warn nowrap'><span class='level'>Warn: </span>(ProcessorNetwork:272) Loading old workspace (/Users/jenkins/actions-runner/_work/modules/modules/inviwo/modules/basegl/tests/regression/instance_renderer_animation/instance_renderer_animation.inv) Module version: BaseGL. Updating to version: 8.</div>
+<div class='info nowrap'><span class='level'>Info: </span>(OpenGL Debug:66) Synchronous debugging active for context: Canvas (0x6000028ab820) at level: Medium</div>
+<div class='info nowrap'><span class='level'>Info: </span>(Shader:255) Id: 6 ([img_texturequad.vert, img_texturequad.frag]) <br/>WARNING: Could not find vertex shader attribute &apos;in_Color&apos; to match BindAttributeLocation request.<br/>WARNING: Could not find vertex shader attribute &apos;in_Normal&apos; to match BindAttributeLocation request.<br/>WARNING: Could not find fragment shader output &apos;PickingData&apos; to match FragDataBinding request.</div>
+<div class='info nowrap'><span class='level'>Info: </span>(Shader:255) Id: 9 ([img_texturequad.vert, img_noise.frag]) <br/>WARNING: Could not find vertex shader attribute &apos;in_Color&apos; to match BindAttributeLocation request.<br/>WARNING: Could not find vertex shader attribute &apos;in_Normal&apos; to match BindAttributeLocation request.<br/>WARNING: Could not find fragment shader output &apos;PickingData&apos; to match FragDataBinding request.</div>
+<div class='info nowrap'><span class='level'>Info: </span>(Shader:255) Id: 5 ([image_identity.vert, background.frag]) <br/>WARNING: Could not find vertex shader attribute &apos;in_Normal&apos; to match BindAttributeLocation request.<br/>WARNING: Output of vertex shader &apos;color_&apos; not read by fragment shader<br/>WARNING: Output of vertex shader &apos;texCoord_&apos; not read by fragment shader</div>
+<div class='info nowrap'><span class='level'>Info: </span>(Shader:255) Id: 4 ([InstanceRenderer.vert, InstanceRenderer.frag]) <br/>WARNING: Output of vertex shader &apos;texCoord&apos; not read by fragment shader</div>
+<div class='info nowrap'><span class='level'>Info: </span>(Shader:255) Id: 21 ([standard.vert, img_copy.frag]) <br/>WARNING: Could not find vertex shader attribute &apos;in_Normal&apos; to match BindAttributeLocation request.<br/>WARNING: Output of vertex shader &apos;color_&apos; not read by fragment shader</div>
+<div class='info nowrap'><span class='level'>Info: </span>(PythonLogger:44) FPS 1024x1024 instances 4096 mesh resolution 64 21.844193139514303</div>
+<div class='info nowrap'><span class='level'>Info: </span>(PythonLogger:44) FPS 1024x1024 instances 4096 mesh resolution 32 27.01368239103845</div>
+<div class='info nowrap'><span class='level'>Info: </span>(PythonLogger:44) FPS 1024x1024 instances 4096 mesh resolution 16 27.590117097267093</div>
+<div class='info nowrap'><span class='level'>Info: </span>(PythonLogger:44) FPS 1024x1024 instances  512 mesh resolution 64 57.62388420688455</div>
+<div class='info nowrap'><span class='level'>Info: </span>(PythonLogger:44) FPS 1024x1024 instances  512 mesh resolution 32 66.220775197207</div>
+<div class='info nowrap'><span class='level'>Info: </span>(PythonLogger:44) FPS 1024x1024 instances  512 mesh resolution 16 72.22095749106711</div>
+<div class='info nowrap'><span class='level'>Info: </span>(PythonLogger:44) FPS 1024x1024 instances   64 mesh resolution 64 82.7529995526071</div>
+<div class='info nowrap'><span class='level'>Info: </span>(PythonLogger:44) FPS 1024x1024 instances   64 mesh resolution 32 77.70253980654536</div>
+<div class='info nowrap'><span class='level'>Info: </span>(PythonLogger:44) FPS 1024x1024 instances   64 mesh resolution 16 78.48443241224489</div>
+<div class='info nowrap'><span class='level'>Info: </span>(PythonLogger:44) FPS  512x 512 instances 4096 mesh resolution 64 30.065994238425127</div>
+<div class='info nowrap'><span class='level'>Info: </span>(PythonLogger:44) FPS  512x 512 instances 4096 mesh resolution 32 29.49905525956539</div>
+<div class='info nowrap'><span class='level'>Info: </span>(PythonLogger:44) FPS  512x 512 instances 4096 mesh resolution 16 31.549276120947834</div>
+<div class='info nowrap'><span class='level'>Info: </span>(PythonLogger:44) FPS  512x 512 instances  512 mesh resolution 64 78.74435038626929</div>
+<div class='info nowrap'><span class='level'>Info: </span>(PythonLogger:44) FPS  512x 512 instances  512 mesh resolution 32 84.01002648973079</div>
+<div class='info nowrap'><span class='level'>Info: </span>(PythonLogger:44) FPS  512x 512 instances  512 mesh resolution 16 73.01274973609625</div>
+<div class='info nowrap'><span class='level'>Info: </span>(PythonLogger:44) FPS  512x 512 instances   64 mesh resolution 64 107.28490558766993</div>
+<div class='info nowrap'><span class='level'>Info: </span>(PythonLogger:44) FPS  512x 512 instances   64 mesh resolution 32 109.01678241240458</div>
+<div class='info nowrap'><span class='level'>Info: </span>(PythonLogger:44) FPS  512x 512 instances   64 mesh resolution 16 106.01037660866245</div>
+<div class='info nowrap'><span class='level'>Info: </span>(PythonLogger:44) FPS  256x 256 instances 4096 mesh resolution 64 31.71812096182302</div>
+<div class='info nowrap'><span class='level'>Info: </span>(PythonLogger:44) FPS  256x 256 instances 4096 mesh resolution 32 31.2337661337124</div>
+<div class='info nowrap'><span class='level'>Info: </span>(PythonLogger:44) FPS  256x 256 instances 4096 mesh resolution 16 32.223220078786525</div>
+<div class='info nowrap'><span class='level'>Info: </span>(PythonLogger:44) FPS  256x 256 instances  512 mesh resolution 64 71.49938218769576</div>
+<div class='info nowrap'><span class='level'>Info: </span>(PythonLogger:44) FPS  256x 256 instances  512 mesh resolution 32 84.89147708759255</div>
+<div class='info nowrap'><span class='level'>Info: </span>(PythonLogger:44) FPS  256x 256 instances  512 mesh resolution 16 85.54055625323014</div>
+<div class='info nowrap'><span class='level'>Info: </span>(PythonLogger:44) FPS  256x 256 instances   64 mesh resolution 64 107.99991718015464</div>
+<div class='info nowrap'><span class='level'>Info: </span>(PythonLogger:44) FPS  256x 256 instances   64 mesh resolution 32 101.80908551386865</div>
+<div class='info nowrap'><span class='level'>Info: </span>(PythonLogger:44) FPS  256x 256 instances   64 mesh resolution 16 104.70063871230278</div>
+<div class='warn nowrap'><span class='level'>Warn: </span>(inviwo.cpp:130) 7 warnings generated during startup</div>
