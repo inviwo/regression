@@ -16,7 +16,7 @@ for line in lines:
     else:
         duplicates[sha] = [pathlib.Path(path)]
 
-print(f"Found {len(duplicates)} sets of duplicates", flush=True)
+print(f"Found {len(duplicates)} unique files out of {len(lines)} files", flush=True)
 
 orgMap = {}
 for (first, *rest) in duplicates.values():
@@ -36,7 +36,7 @@ root = pathlib.Path(sys.argv[2])
 reports = list(root.glob("**/report*.html"))
 
 for report in reports:
-    print(f"Processing {report}")
+    print(f"Processing {report}", flush=True)
     reportDir = report.parent
 
     with open(report) as f:
