@@ -15,7 +15,7 @@ for line in lines:
 for (first, *rest) in duplicates.values():
     for item in rest:
         item.unlink()
-        relpath = pathlib.Path(os.path.relpath(first, item.parent()))
+        relpath = pathlib.Path(os.path.relpath(first, item.parent))
         item.symlink_to(relpath)
 
     if len(rest) > 0:
