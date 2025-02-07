@@ -26,6 +26,8 @@ jobs:
       - name: Inviwo PRs
         working-directory: ./regression/macos/refs
         run: |
+          git config --global user.name 'Inviwo-Team'
+          git config --global user.email 'team@inviwo.org'
           for i in pull/*
           do 
             state=`gh pr view --json state https://github.com/inviwo/inviwo/${i} | jq -r '.state'`
@@ -33,11 +35,18 @@ jobs:
             if [[ "${state}" = "ClOSED" || "${state}" = "MERGED" ]]
             then
               action="Will be removed"
+              rf -rf ${i}
+              git add .
+              git commit -am "Remove regression reports for ${state} PR https://github.com/inviwo/inviwo/${i}"
             else
               action=""
             fi
             echo ${i} ${size} ${state} ${action}
           done
+
+          git status --porcelain=v1 --branch
+          git --no-pager log @{u}.. --oneline
+          
 
 
           
