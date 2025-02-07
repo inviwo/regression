@@ -6,7 +6,7 @@ lines = open(sys.argv[1]).readlines()
 duplicates = {}
 for line in lines:
     (_, _, sha, path) = line.split()
-    if sha in d:
+    if sha in duplicates:
         duplicates[sha].append(pathlib.Path(path))
     else:
         duplicates[sha] = [pathlib.Path(path)]
