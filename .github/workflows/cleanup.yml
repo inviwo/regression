@@ -5,6 +5,9 @@ on:
     branches: [ "main" ]
   workflow_dispatch:
 
+env:
+    GH_TOKEN: ${{ github.token }}
+
 jobs:
   cleanup:
     runs-on: ubuntu-latest
@@ -25,9 +28,16 @@ jobs:
         run: |
           for i in pull/*
           do 
-            state=`gh pr view --json state https://github.com/inviwo/inviwo/${i} | jq '.state'`
-            size=`du -sh ${i}`
-            echo ${size} ${state}
+            state=`gh pr view --json state https://github.com/inviwo/inviwo/${i} | jq -r '.state'`
+            size=`du -sh ${i} | cut -f1`
+            if [[ "${state}" = "ClOSED" || "${state}" = "MERGED" ]]
+            then
+              action="Will be removed"
+            else
+              action=""
+            fi
+            echo ${i} ${size} ${state} ${action}
           done
 
-      
+
+          
