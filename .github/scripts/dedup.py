@@ -15,3 +15,5 @@ for (first, *rest) in duplicates.values():
     for item in rest:
         item.unlink()
         item.symlink_to(first)
+
+    print(f"Created {len(rest)} symlinks to {first}")

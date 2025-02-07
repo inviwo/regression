@@ -37,11 +37,24 @@ jobs:
           python3 .github/scripts/dedup.py blobs.txt
           rm blobs.txt
 
+      - name: Archive artifact
+        run: |
+          tar \
+            --directory "$INPUT_PATH" \
+            -cvf "$RUNNER_TEMP/artifact.tar" \
+            --exclude=.git \
+            --exclude=.github \
+            --exclude=".[^/]*" \
+            .
+        
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        id: upload-artifact
+        uses: actions/upload-artifact@v4
         with:
-          # Upload entire repository
-          path: '.'
+          name: github-pages
+          path: ${{ runner.temp }}/artifact.tar
+          retention-days: 1
+          if-no-files-found: error
 
       - name: Deploy to GitHub Pages
         id: deployment
