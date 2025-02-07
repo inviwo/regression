@@ -6,6 +6,8 @@ from bs4 import BeautifulSoup
 
 lines = open(sys.argv[1]).readlines()
 
+print(f"Deduplicating")
+
 duplicates = {}
 for line in lines:
     (_, _, sha, path) = line.split()
@@ -13,6 +15,8 @@ for line in lines:
         duplicates[sha].append(pathlib.Path(path))
     else:
         duplicates[sha] = [pathlib.Path(path)]
+
+print(f"Found {len(duplicates)} sets of duplicates")
 
 orgMap = {}
 for (first, *rest) in duplicates.values():
@@ -24,14 +28,15 @@ def replaceSource(items):
         src = item["src"]
         if reportDir / src in orgMap:
             org = orgMap[reportDir/src]
-            rel = os.path.relpath(org, (reportDir/src).parent)
-            item["src"] = f"/{rel}"
+            #rel = os.path.relpath(org, (reportDir/src).parent)
+            item["src"] = f"/regression/{org}"
 
 
 root = pathlib.Path(sys.argv[2])
 reports = list(root.glob("**/report*.html"))
 
 for report in reports:
+    print(f"Processing {report}")
     reportDir = report.parent
 
     with open(report) as f:
@@ -44,6 +49,8 @@ for report in reports:
     with open(report, 'w') as f:
         f.write(soup.prettify())
 
+
+print(f"Removing duplicates")
 for (first, *rest) in duplicates.values():
     if first.suffix in [".png", ".js"]:
         for item in rest:
