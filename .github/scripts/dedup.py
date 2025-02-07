@@ -1,5 +1,6 @@
 import pathlib
 import sys
+import os
 
 lines = open(sys.argv[1]).readlines()
 
@@ -14,6 +15,8 @@ for line in lines:
 for (first, *rest) in duplicates.values():
     for item in rest:
         item.unlink()
-        item.symlink_to(first)
+        relpath = pathlib.Path(os.path.relpath(first, item))
+        item.symlink_to(relpath)
 
-    print(f"Created {len(rest)} symlinks to {first}")
+    if len(rest) > 0:
+        print(f"Created {len(rest)} symlinks to {first}")
