@@ -36,7 +36,7 @@ jobs:
             then
               echo "::group::${i} ${size} ${state} Will be removed"
               rm -rf ${i}
-              git add --quiet .
+              git add . 1>/dev/null
               git commit -am "Remove regression reports for ${state} PR https://github.com/inviwo/inviwo/${i}"
               echo "::endgroup::"
             else
