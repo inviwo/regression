@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 
 lines = open(sys.argv[1]).readlines()
 
-print(f"Deduplicating")
+print(f"Deduplicating", flush=True)
 
 duplicates = {}
 for line in lines:
@@ -16,7 +16,7 @@ for line in lines:
     else:
         duplicates[sha] = [pathlib.Path(path)]
 
-print(f"Found {len(duplicates)} sets of duplicates")
+print(f"Found {len(duplicates)} sets of duplicates", flush=True)
 
 orgMap = {}
 for (first, *rest) in duplicates.values():
@@ -47,10 +47,10 @@ for report in reports:
     replaceSource(soup.find_all('script'))
 
     with open(report, 'w') as f:
-        f.write(soup.prettify())
+        f.write(str(soup))
 
 
-print(f"Removing duplicates")
+print(f"Removing duplicates", flush=True)
 for (first, *rest) in duplicates.values():
     if first.suffix in [".png", ".js"]:
         for item in rest:
