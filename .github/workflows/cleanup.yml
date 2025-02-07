@@ -1,0 +1,33 @@
+name: Cleanup
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone
+        uses: actions/checkout@v4
+        with:
+          path: regression
+
+      - name: Stats
+        run: |
+          shopt -s dotglob
+          du -hs regression/*
+          shopt -u dotglob
+
+      - name: Inviwo PRs
+        working-directory: ./regression/macos/refs
+        run: |
+          for i in pull/*
+          do 
+            state=`gh pr view --json state https://github.com/inviwo/inviwo/${i} | jq '.state'`
+            size=`du -sh ${i}`
+            echo ${size} ${state}
+          done
+
+      
