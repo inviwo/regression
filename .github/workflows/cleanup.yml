@@ -34,14 +34,15 @@ jobs:
             size=`du -sh ${i} | cut -f1`
             if [[ "${state}" = "ClOSED" || "${state}" = "MERGED" ]]
             then
-              action="Will be removed"
+              echo "::group::${i} ${size} ${state} Will be removed"
               rm -rf ${i}
               git add .
               git commit -am "Remove regression reports for ${state} PR https://github.com/inviwo/inviwo/${i}"
+              echo "::endgroup::"
             else
-              action=""
+              echo "::group::${i} ${size} ${state}"
+              echo "::endgroup::"
             fi
-            echo ${i} ${size} ${state} ${action}
           done
 
           git status --porcelain=v1 --branch
