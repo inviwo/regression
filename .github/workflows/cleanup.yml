@@ -35,7 +35,7 @@ jobs:
             if [[ "${state}" = "ClOSED" || "${state}" = "MERGED" ]]
             then
               action="Will be removed"
-              rf -rf ${i}
+              rm -rf ${i}
               git add .
               git commit -am "Remove regression reports for ${state} PR https://github.com/inviwo/inviwo/${i}"
             else
