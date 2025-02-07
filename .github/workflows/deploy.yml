@@ -33,8 +33,9 @@ jobs:
 
       - name: Deduplicate files
         run: |
+          pip install beautifulsoup4
           git ls-tree -r HEAD > blobs.txt
-          python3 .github/scripts/dedup.py blobs.txt
+          python3 .github/scripts/dedup.py blobs.txt .
           rm blobs.txt
 
       - name: Archive artifact
