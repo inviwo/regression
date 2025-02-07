@@ -12,6 +12,6 @@ for line in lines:
         duplicates[sha] = [pathlib.Path(path)]
 
 for (first, *rest) in duplicates.values():
-    if len(rest) > 0:
-        rest.unlink()
-        rest.symlink_to(first)
+    for item in rest:
+        item.unlink()
+        item.symlink_to(first)
