@@ -1,0 +1,179 @@
+<div class='info'>Inviwo (v0.9.12-pre) Log File</div>
+<div class='info nowrap'>Created at: 2025-11-11 23:41:35 </div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::InviwoApplication::printApplicationInfo:278) Inviwo Version: 0.9.12-pre</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::InviwoApplication::printApplicationInfo:285) Base Path: /Users/jenkins/actions-runner/_work/inviwo/inviwo/inviwo</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::InviwoApplication::printApplicationInfo:286) ThreadPool Worker Threads: 6</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::InviwoApplication::printApplicationInfo:288) Config: Ninja [RelWithDebInfo] AppleClang (16.0.0.16000026)</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:98) Qt Version 6.9.1</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::CImgModule::CImgModule:71) Using LibJPG Version 62</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::CImgModule::CImgModule:72) Using OpenEXR Version 3.3.5</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::(anonymous namespace)::initializePythonInterpreter:314) Python runtime version: 3.12.9 (main, Sep 30 2025, 11:17:26) [Clang 16.0.0 (clang-1600.0.26.4)], build version 3.12.9</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::(anonymous namespace)::initializePythonInterpreter:353) Internal python found</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::pngModule::pngModule:48) Using LibPNG Version 1.6.50</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::OpenGLCapabilities::printInfo:121) GPU Vendor: Intel Inc.</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::OpenGLCapabilities::printInfo:122) GPU Renderer: Intel(R) UHD Graphics 630</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::OpenGLCapabilities::printInfo:125) Dedicated video memory: UNKNOWN</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::OpenGLCapabilities::printInfo:128) OpenGL Version: 4.1 INTEL-23.7.3</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::OpenGLCapabilities::printInfo:131) OpenGL Profile: Core</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::OpenGLCapabilities::printInfo:134) GLSL version: 4.10</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::Shader::linkShader:286) Id: 8 ([img_texturequad.vert, img_texturequad.frag]) <br/>WARNING: Could not find vertex shader attribute &apos;in_Color&apos; to match BindAttributeLocation request.<br/>WARNING: Could not find vertex shader attribute &apos;in_Normal&apos; to match BindAttributeLocation request.<br/>WARNING: Could not find fragment shader output &apos;PickingData&apos; to match FragDataBinding request.</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::Shader::linkShader:286) Id: 11 ([img_texturequad.vert, img_noise.frag]) <br/>WARNING: Could not find vertex shader attribute &apos;in_Color&apos; to match BindAttributeLocation request.<br/>WARNING: Could not find vertex shader attribute &apos;in_Normal&apos; to match BindAttributeLocation request.<br/>WARNING: Could not find fragment shader output &apos;PickingData&apos; to match FragDataBinding request.</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::Shader::linkShader:286) Id: 1 ([image_identity.vert, background.frag]) <br/>WARNING: Could not find vertex shader attribute &apos;in_Normal&apos; to match BindAttributeLocation request.<br/>WARNING: Output of vertex shader &apos;color_&apos; not read by fragment shader<br/>WARNING: Output of vertex shader &apos;texCoord_&apos; not read by fragment shader</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::Shader::linkShader:286) Id: 2 ([InstanceRenderer.vert, InstanceRenderer.frag]) <br/>WARNING: Output of vertex shader &apos;texCoord&apos; not read by fragment shader</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::Shader::linkShader:286) Id: 23 ([standard.vert, img_copy.frag]) <br/>WARNING: Could not find vertex shader attribute &apos;in_Normal&apos; to match BindAttributeLocation request.<br/>WARNING: Output of vertex shader &apos;color_&apos; not read by fragment shader</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 687ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 699ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 698ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 713ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 669ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 683ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 672ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 685ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 740ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 751ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 670ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 680ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 753ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 767ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 666ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 679ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 666ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 680ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 680ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 695ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 760ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 771ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 700ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 739ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 683ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 695ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 759ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 772ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 672ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 683ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 765ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 775ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 665ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 679ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 758ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 768ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 758ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 770ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 667ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 680ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 672ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 682ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 760ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 769ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 666ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 679ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 671ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 682ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 758ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 770ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 670ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 682ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 671ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 683ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 669ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 681ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::PythonLogger::onPythonExecutionOutput:41) FPS 1024x1024 instances 4096 mesh resolution 64 1.3616954144471634</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 691ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 705ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 671ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 683ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 646ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 656ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 737ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 748ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 644ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 655ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 642ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 652ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 732ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 744ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 642ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 652ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 650ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 661ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 644ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 655ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 645ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 656ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 679ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 690ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 703ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 714ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 735ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 747ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 648ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 658ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 735ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 748ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 702ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 714ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 656ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 668ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 734ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 746ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 645ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 656ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 732ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 744ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 733ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 745ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 645ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 656ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 730ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 743ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 644ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 654ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 733ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 743ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 675ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 688ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 703ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 715ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::PythonLogger::onPythonExecutionOutput:41) FPS 1024x1024 instances 4096 mesh resolution 32 1.3985933355959677</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 756ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 770ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 655ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 668ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 718ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 728ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 631ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 643ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 716ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 726ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 722ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 739ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 625ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 635ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 720ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 731ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 629ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 672ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 668ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 680ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 627ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 636ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 717ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 729ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 720ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 731ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 628ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 639ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 721ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 731ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 698ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 741ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 651ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 661ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 722ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 733ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 659ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 671ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 683ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 694ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:136) Processed InstanceRenderer: 717ms</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::ProcessorNetworkEvaluator::evaluate:108) Evaluated Processor Network: 728ms</div>
