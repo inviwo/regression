@@ -1,0 +1,164 @@
+[
+    {
+        "name": "FPS-size-1024-insts-4096-res-64",
+        "quantity": "frequency",
+        "unit": "Hz",
+        "value": 22.382706727661184
+    },
+    {
+        "name": "FPS-size-1024-insts-4096-res-32",
+        "quantity": "frequency",
+        "unit": "Hz",
+        "value": 30.102666809307063
+    },
+    {
+        "name": "FPS-size-1024-insts-4096-res-16",
+        "quantity": "frequency",
+        "unit": "Hz",
+        "value": 29.582752246282528
+    },
+    {
+        "name": "FPS-size-1024-insts-512-res-64",
+        "quantity": "frequency",
+        "unit": "Hz",
+        "value": 68.78477342806474
+    },
+    {
+        "name": "FPS-size-1024-insts-512-res-32",
+        "quantity": "frequency",
+        "unit": "Hz",
+        "value": 76.46562378298336
+    },
+    {
+        "name": "FPS-size-1024-insts-512-res-16",
+        "quantity": "frequency",
+        "unit": "Hz",
+        "value": 98.83994868746782
+    },
+    {
+        "name": "FPS-size-1024-insts-64-res-64",
+        "quantity": "frequency",
+        "unit": "Hz",
+        "value": 106.19344105080332
+    },
+    {
+        "name": "FPS-size-1024-insts-64-res-32",
+        "quantity": "frequency",
+        "unit": "Hz",
+        "value": 99.84648682197876
+    },
+    {
+        "name": "FPS-size-1024-insts-64-res-16",
+        "quantity": "frequency",
+        "unit": "Hz",
+        "value": 89.37640422221162
+    },
+    {
+        "name": "FPS-size-512-insts-4096-res-64",
+        "quantity": "frequency",
+        "unit": "Hz",
+        "value": 31.711252013994734
+    },
+    {
+        "name": "FPS-size-512-insts-4096-res-32",
+        "quantity": "frequency",
+        "unit": "Hz",
+        "value": 32.164970335173024
+    },
+    {
+        "name": "FPS-size-512-insts-4096-res-16",
+        "quantity": "frequency",
+        "unit": "Hz",
+        "value": 32.074789293690465
+    },
+    {
+        "name": "FPS-size-512-insts-512-res-64",
+        "quantity": "frequency",
+        "unit": "Hz",
+        "value": 105.72714557811646
+    },
+    {
+        "name": "FPS-size-512-insts-512-res-32",
+        "quantity": "frequency",
+        "unit": "Hz",
+        "value": 102.89337570690012
+    },
+    {
+        "name": "FPS-size-512-insts-512-res-16",
+        "quantity": "frequency",
+        "unit": "Hz",
+        "value": 104.16496963177059
+    },
+    {
+        "name": "FPS-size-512-insts-64-res-64",
+        "quantity": "frequency",
+        "unit": "Hz",
+        "value": 107.08400482517469
+    },
+    {
+        "name": "FPS-size-512-insts-64-res-32",
+        "quantity": "frequency",
+        "unit": "Hz",
+        "value": 110.77842328774872
+    },
+    {
+        "name": "FPS-size-512-insts-64-res-16",
+        "quantity": "frequency",
+        "unit": "Hz",
+        "value": 102.74692466149091
+    },
+    {
+        "name": "FPS-size-256-insts-4096-res-64",
+        "quantity": "frequency",
+        "unit": "Hz",
+        "value": 35.20442282366008
+    },
+    {
+        "name": "FPS-size-256-insts-4096-res-32",
+        "quantity": "frequency",
+        "unit": "Hz",
+        "value": 34.04559839507253
+    },
+    {
+        "name": "FPS-size-256-insts-4096-res-16",
+        "quantity": "frequency",
+        "unit": "Hz",
+        "value": 34.764157791881324
+    },
+    {
+        "name": "FPS-size-256-insts-512-res-64",
+        "quantity": "frequency",
+        "unit": "Hz",
+        "value": 105.93630799117713
+    },
+    {
+        "name": "FPS-size-256-insts-512-res-32",
+        "quantity": "frequency",
+        "unit": "Hz",
+        "value": 98.65024100099745
+    },
+    {
+        "name": "FPS-size-256-insts-512-res-16",
+        "quantity": "frequency",
+        "unit": "Hz",
+        "value": 97.17300978020148
+    },
+    {
+        "name": "FPS-size-256-insts-64-res-64",
+        "quantity": "frequency",
+        "unit": "Hz",
+        "value": 112.9694602395715
+    },
+    {
+        "name": "FPS-size-256-insts-64-res-32",
+        "quantity": "frequency",
+        "unit": "Hz",
+        "value": 109.78886143647706
+    },
+    {
+        "name": "FPS-size-256-insts-64-res-16",
+        "quantity": "frequency",
+        "unit": "Hz",
+        "value": 108.5668451602945
+    }
+]
