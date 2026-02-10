@@ -24,6 +24,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-slim
+    timeout-minutes: 180
     steps:
       - name: Checkout
         uses: actions/checkout@v4

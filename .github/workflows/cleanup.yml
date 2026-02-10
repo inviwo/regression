@@ -11,6 +11,7 @@ env:
 jobs:
   cleanup:
     runs-on: ubuntu-slim
+    timeout-minutes: 180
     steps:
       - name: Clone
         uses: actions/checkout@v4
