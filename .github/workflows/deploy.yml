@@ -43,7 +43,7 @@ jobs:
         run: |
           tar \
             --directory "." \
-            -cvf "$RUNNER_TEMP/artifact.tar" \
+            -cf "$RUNNER_TEMP/artifact.tar" \
             --exclude=.git \
             --exclude=.github \
             --exclude=".[^/]*" \
