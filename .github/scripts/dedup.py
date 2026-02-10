@@ -6,15 +6,20 @@ from bs4 import BeautifulSoup
 
 lines = open(sys.argv[1]).readlines()
 
-print(f"Deduplicating", flush=True)
+print(f"Deduplicating files: {len(lines)}", flush=True)
 
 duplicates = {}
 for line in lines:
-    (_, _, sha, path) = line.split()
-    if sha in duplicates:
-        duplicates[sha].append(pathlib.Path(path))
-    else:
-        duplicates[sha] = [pathlib.Path(path)]
+    try:
+        (_, _, sha, path) = line.split()
+        if sha in duplicates:
+            duplicates[sha].append(pathlib.Path(path))
+        else:
+            duplicates[sha] = [pathlib.Path(path)]
+    except Exception as e:
+        print(f"Error processing line: {line}", flush=True)
+        print(e, flush=True)
+        exit(1)
 
 print(f"Found {len(duplicates)} unique files out of {len(lines)} files", flush=True)
 
