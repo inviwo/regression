@@ -11,7 +11,7 @@ print(f"Deduplicating files: {len(lines)}", flush=True)
 duplicates = {}
 for line in lines:
     try:
-        (_, _, sha, path) = line.split()
+        (_, _, sha, path) = line.split(' ', maxsplit=3)
         if sha in duplicates:
             duplicates[sha].append(pathlib.Path(path))
         else:
@@ -19,7 +19,6 @@ for line in lines:
     except Exception as e:
         print(f"Error processing line: {line}", flush=True)
         print(e, flush=True)
-        exit(1)
 
 print(f"Found {len(duplicates)} unique files out of {len(lines)} files", flush=True)
 
