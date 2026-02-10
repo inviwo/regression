@@ -20,7 +20,7 @@ jobs:
 
       - name: Stats
         run: |
-          du -s -d 2 regression
+          du -h -d 2 regression
 
       - name: Inviwo PRs
         working-directory: ./regression/macos/refs
@@ -82,7 +82,7 @@ jobs:
 
       - name: Final stats
         run: |
-          du -s -d 2 regression
+          du -h -d 2 regression
           
 
 
