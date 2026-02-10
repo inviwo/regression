@@ -20,9 +20,7 @@ jobs:
 
       - name: Stats
         run: |
-          shopt -s dotglob
-          du -hs regression/*
-          shopt -u dotglob
+          du -s -d 2 regression
 
       - name: Inviwo PRs
         working-directory: ./regression/macos/refs
@@ -53,11 +51,38 @@ jobs:
 
           git push
 
+      - name: Modules PRs
+        working-directory: ./regression/modules/macos/refs
+        run: |
+          git config --global user.name 'Inviwo-Team'
+          git config --global user.email 'team@inviwo.org'
+          for i in pull/*
+          do 
+            state=`gh pr view --json state https://github.com/inviwo/modules/${i} | jq -r '.state'`
+            size=`du -sh ${i} | cut -f1`
+            if [[ "${state}" = "CLOSED" || "${state}" = "MERGED" ]]
+            then
+              echo "::group::${i} ${size} ${state} Will be removed"
+              rm -rf ${i}
+              git add --no-verbose .
+              git diff --cached --shortstat
+              git commit -am "Remove regression reports for ${state} PR https://github.com/inviwo/modules/${i}" --quiet
+              echo "::endgroup::"
+            else
+              echo "${i} ${size} ${state}"
+            fi
+          done
+
+          echo "::group::Commits"
+          git status --porcelain=v1 --branch
+          git --no-pager log @{u}.. --oneline
+          echo "::endgroup::"
+
+          git push
+
       - name: Final stats
         run: |
-          shopt -s dotglob
-          du -hs regression/*
-          shopt -u dotglob
+          du -s -d 2 regression
           
 
 
