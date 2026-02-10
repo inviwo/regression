@@ -18,9 +18,10 @@ jobs:
         with:
           path: regression
 
-      - name: Stats
+      - name: Stats Before
         run: |
-          du -h -d 2 regression
+          du -h -d 2 regression/macos/refs
+          du -h -d 2 regression/modules/macos/refs
 
       - name: Inviwo PRs
         working-directory: ./regression/macos/refs
@@ -80,9 +81,10 @@ jobs:
 
           git push
 
-      - name: Final stats
+      - name: Stats After
         run: |
-          du -h -d 2 regression
+          du -h -d 2 regression/macos/refs
+          du -h -d 2 regression/modules/macos/refs
           
 
 
