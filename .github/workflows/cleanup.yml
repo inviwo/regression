@@ -33,7 +33,7 @@ jobs:
           do 
             state=`gh pr view --json state https://github.com/inviwo/inviwo/${i} | jq -r '.state'`
             size=`du -sh ${i} | cut -f1`
-            if [[ "${state}" = "ClOSED" || "${state}" = "MERGED" ]]
+            if [[ "${state}" = "CLOSED" || "${state}" = "MERGED" ]]
             then
               echo "::group::${i} ${size} ${state} Will be removed"
               rm -rf ${i}
