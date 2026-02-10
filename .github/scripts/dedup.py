@@ -11,7 +11,7 @@ print(f"Deduplicating files: {len(lines)}", flush=True)
 duplicates = {}
 for line in lines:
     try:
-        (_, _, sha, path) = line.split(' ', maxsplit=3)
+        (_, _, sha, path) = line.split(maxsplit=3)
         if sha in duplicates:
             duplicates[sha].append(pathlib.Path(path))
         else:
