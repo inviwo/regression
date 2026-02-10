@@ -39,8 +39,8 @@ root = pathlib.Path(sys.argv[2])
 reports = list(root.glob("**/report*.html"))
 
 print("::group::Process reports", flush=True)
-for report in reports:
-    print(f"Processing {report}", flush=True)
+for (i, report) in enumerate(reports):
+    print(f"({i}/{len(reports)}) Processing {report}", flush=True)
     reportDir = report.parent
 
     with open(report) as f:
