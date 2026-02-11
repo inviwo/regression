@@ -9,7 +9,7 @@ def findDuplicates(lines):
     duplicates = {}
     for line in lines:
         try:
-            (_, _, sha, path) = line.split(maxsplit=3)
+            (_, _, sha, path) = line.strip().split(maxsplit=3)
             if sha in duplicates:
                 duplicates[sha].append(pathlib.Path(path))
             else:
@@ -80,7 +80,7 @@ if __name__ == "__main__":
     reports = list(root.glob("**/report*.html"))
 
     print("::group::Process reports", flush=True)
-    for (i, report) in enumerate(reports):
+    for (i, report) in enumerate(reports[::2]):
         print(f"({i}/{len(reports)}) Processing {report}", flush=True)
         processReport(report, orgMap)
     print("::endgroup::", flush=True)
