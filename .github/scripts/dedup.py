@@ -53,10 +53,8 @@ def processReport(report:pathlib.Path, orgMap):
 
 def deleteDuplicates(duplicates):
     for (first, *rest) in duplicates.values():
-        print(f"First: {first} {rest}")
         if first.suffix in [".png", ".js"]:
             for item in rest:
-                print(f"remove {item}")
                 item.unlink()
 
             if len(rest) > 0:
@@ -80,7 +78,7 @@ if __name__ == "__main__":
     reports = list(root.glob("**/report*.html"))
 
     print("::group::Process reports", flush=True)
-    for (i, report) in enumerate(reports[::2]):
+    for (i, report) in enumerate(reports):
         print(f"({i}/{len(reports)}) Processing {report}", flush=True)
         processReport(report, orgMap)
     print("::endgroup::", flush=True)
