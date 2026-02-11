@@ -22,6 +22,13 @@ for line in lines:
 
 print(f"Found {len(duplicates)} unique files out of {len(lines)} files", flush=True)
 
+for key, value in duplicates.items():
+    print(key)
+    for v in value:
+        print(f"   {v}")
+
+exit(1)
+
 orgMap = {}
 for (first, *rest) in duplicates.values():
     for item in rest:
