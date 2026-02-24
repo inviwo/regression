@@ -1,0 +1,89 @@
+<div class='info'>Inviwo (v0.9.12-pre) Log File</div>
+<div class='info nowrap'>Created at: 2026-02-24 17:16:50 </div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::InviwoApplication::printApplicationInfo:278) Inviwo Version: 0.9.12-pre</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::InviwoApplication::printApplicationInfo:285) Base Path: /Users/jenkins/actions-runner/_work/modules/modules/inviwo</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::InviwoApplication::printApplicationInfo:286) ThreadPool Worker Threads: 6</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::InviwoApplication::printApplicationInfo:288) Config: Xcode [RelWithDebInfo] AppleClang (16.0.0.16000026)</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:98) Qt Version 6.10.0</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::util::registerModulesFiltered:97) The following modules were disabled from loading: [&quot;glfw&quot;]</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: Core</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: Animation</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: QtWidgets</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: AnimationQt</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: Assimp</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: Base</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: OpenGL</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: OpenGLQt</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: BrushingAndLinking</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: FontRendering</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: BaseGL</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: CImg</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::CImgModule::CImgModule:71) Using LibJPG Version 62</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::CImgModule::CImgModule:72) Using OpenEXR Version 3.4.4</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: JSON</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: DataFrame</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: Python3</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::(anonymous namespace)::initializePythonInterpreter:314) Python runtime version: 3.12.9 (main, Jan 20 2026, 20:22:39) [Clang 16.0.0 (clang-1600.0.26.4)], build version 3.12.9</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::(anonymous namespace)::initializePythonInterpreter:353) Internal python found</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: DataFramePython</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: DataFrameQt</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: EigenUtils</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: FFmpeg</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: HDF5</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: Nifti</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: OIT</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: OpactOpt</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: Plotting</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: UserInterfaceGL</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: PlottingGL</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: png</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::pngModule::pngModule:48) Using LibPNG Version 1.6.53</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: PostProcessing</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: PVM</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: Python3GL</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: Python3Qt</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: TetraMesh</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: VectorFieldVisualization</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: VectorFieldVisualizationGL</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: Volume</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: WebBrowser</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: WebQt</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: ComputeShaderExamples</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: DataFrameClustering</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: DevTools</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: Graphviz</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: NanoVGUtils</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: OpenMesh</div>
+<div class='info nowrap'><span class='level'>Info: </span>(OpenMeshModule:64) OpenMesh version: 0.160.0</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: PythonTools</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: SpringSystem</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: VTK</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: MolVisBase</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: MolVisPython</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: Gaussian</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: MolVisGL</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: VASP</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: TensorVisBase</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: TensorVisIO</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: TensorVisPython</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: ttk</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading module: IntegralLineFiltering</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:116) Loading Capabilities</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::OpenGLCapabilities::printInfo:121) GPU Vendor: Intel Inc.</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::OpenGLCapabilities::printInfo:122) GPU Renderer: Intel(R) UHD Graphics 630</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::OpenGLCapabilities::printInfo:125) Dedicated video memory: UNKNOWN</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::OpenGLCapabilities::printInfo:128) OpenGL Version: 4.1 INTEL-23.7.4</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::OpenGLCapabilities::printInfo:131) OpenGL Profile: Core</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::OpenGLCapabilities::printInfo:134) GLSL version: 4.10</div>
+<div class='warn nowrap'><span class='level'>Warn: </span>(inviwo::WorkspaceManager::configureWorkspaceDeserializerAndInfo:369) Loading old workspace (/Users/jenkins/actions-runner/_work/modules/modules/inviwo/modules/eigenutils/tests/regression/matrixtoimage/matrixtoimage.inv). Base module version: 4. Updating to version: 12.</div>
+<div class='warn nowrap'><span class='level'>Warn: </span>(inviwo::WorkspaceManager::configureWorkspaceDeserializerAndInfo:369) Loading old workspace (/Users/jenkins/actions-runner/_work/modules/modules/inviwo/modules/eigenutils/tests/regression/matrixtoimage/matrixtoimage.inv). FontRendering module version: 3. Updating to version: 5.</div>
+<div class='warn nowrap'><span class='level'>Warn: </span>(inviwo::WorkspaceManager::configureWorkspaceDeserializerAndInfo:369) Loading old workspace (/Users/jenkins/actions-runner/_work/modules/modules/inviwo/modules/eigenutils/tests/regression/matrixtoimage/matrixtoimage.inv). BaseGL module version: 4. Updating to version: 12.</div>
+<div class='warn nowrap'><span class='level'>Warn: </span>(inviwo::WorkspaceManager::configureWorkspaceDeserializerAndInfo:369) Loading old workspace (/Users/jenkins/actions-runner/_work/modules/modules/inviwo/modules/eigenutils/tests/regression/matrixtoimage/matrixtoimage.inv). Plotting module version: 1. Updating to version: 2.</div>
+<div class='warn nowrap'><span class='level'>Warn: </span>(inviwo::WorkspaceManager::configureWorkspaceDeserializerAndInfo:369) Loading old workspace (/Users/jenkins/actions-runner/_work/modules/modules/inviwo/modules/eigenutils/tests/regression/matrixtoimage/matrixtoimage.inv). PlottingGL module version: 2. Updating to version: 5.</div>
+<div class='warn nowrap'><span class='level'>Warn: </span>(inviwo::WorkspaceManager::configureWorkspaceDeserializerAndInfo:369) Loading old workspace (/Users/jenkins/actions-runner/_work/modules/modules/inviwo/modules/eigenutils/tests/regression/matrixtoimage/matrixtoimage.inv). PostProcessing module version: 0. Updating to version: 1.</div>
+<div class='warn nowrap'><span class='level'>Warn: </span>(inviwo::ProcessorNetwork::deserialize:510) Loading old workspace (/Users/jenkins/actions-runner/_work/modules/modules/inviwo/modules/eigenutils/tests/regression/matrixtoimage/matrixtoimage.inv). Processor Network version: 17. Updating to version: 21.</div>
+<div class='warn nowrap'><span class='level'>Warn: </span>(inviwo::Property::deserialize:293) Deserialized Canvas2.visibleLayer with class identifier: org.inviwo.OptionPropertyEnumUChar from a serialized property with a different class identifier: org.inviwo.OptionPropertyEnumChar</div>
+<div class='warn nowrap'><span class='level'>Warn: </span>(inviwo::Property::deserialize:293) Deserialized Canvas.visibleLayer with class identifier: org.inviwo.OptionPropertyEnumUChar from a serialized property with a different class identifier: org.inviwo.OptionPropertyEnumChar</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::Shader::linkShader:286) Id: 9 ([img_texturequad.vert, img_texturequad.frag]) <br/>WARNING: Could not find vertex shader attribute &apos;in_Color&apos; to match BindAttributeLocation request.<br/>WARNING: Could not find vertex shader attribute &apos;in_Normal&apos; to match BindAttributeLocation request.<br/>WARNING: Could not find fragment shader output &apos;PickingData&apos; to match FragDataBinding request.</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::Shader::linkShader:286) Id: 12 ([img_texturequad.vert, img_noise.frag]) <br/>WARNING: Could not find vertex shader attribute &apos;in_Color&apos; to match BindAttributeLocation request.<br/>WARNING: Could not find vertex shader attribute &apos;in_Normal&apos; to match BindAttributeLocation request.<br/>WARNING: Could not find fragment shader output &apos;PickingData&apos; to match FragDataBinding request.</div>
+<div class='warn nowrap'><span class='level'>Warn: </span>(main:144) 9 warnings generated during startup</div>
