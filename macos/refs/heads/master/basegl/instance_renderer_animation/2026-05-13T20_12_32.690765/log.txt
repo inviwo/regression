@@ -1,0 +1,98 @@
+<div class='info'>Inviwo (v0.9.12-pre) Log File</div>
+<div class='info nowrap'>Created at: 2026-05-13 20:12:34 </div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::InviwoApplication::printApplicationInfo:278) Inviwo Version: 0.9.12-pre</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::InviwoApplication::printApplicationInfo:280) Build Date: 2026-05-13 19:58:34</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::InviwoApplication::printApplicationInfo:282) modules-core: https://github.com/inviwo/inviwo SHA: dc97abf08a1b23ac365bc9bb47c0515f218d99c5 </div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::InviwoApplication::printApplicationInfo:286) Base Path: /Users/jenkins/actions-runner/_work/inviwo/inviwo/inviwo</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::InviwoApplication::printApplicationInfo:287) ThreadPool Worker Threads: 6</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::InviwoApplication::printApplicationInfo:289) Config: Ninja [RelWithDebInfo] AppleClang (17.0.0.17000604)</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:97) Qt Version 6.10.3</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::util::registerModulesFiltered:97) The following modules were disabled from loading: [&quot;glfw&quot;]</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:115) Loading module: Core</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:115) Loading module: Animation</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:115) Loading module: QtWidgets</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:115) Loading module: AnimationQt</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:115) Loading module: Assimp</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:115) Loading module: Base</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:115) Loading module: OpenGL</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:115) Loading module: OpenGLQt</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:115) Loading module: BrushingAndLinking</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:115) Loading module: FontRendering</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:115) Loading module: BaseGL</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:115) Loading module: CImg</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::CImgModule::CImgModule:71) Using LibJPG Version 62</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::CImgModule::CImgModule:72) Using OpenEXR Version 3.4.11</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:115) Loading module: JSON</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:115) Loading module: DataFrame</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:115) Loading module: Python3</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::(anonymous namespace)::initializePythonInterpreter:314) Python runtime version: 3.12.13 (main, May 13 2026, 08:09:01) [Clang 17.0.0 (clang-1700.6.4.2)], build version 3.12.13</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::(anonymous namespace)::initializePythonInterpreter:353) Internal python found</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:115) Loading module: DataFramePython</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:115) Loading module: DataFrameQt</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:115) Loading module: EigenUtils</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:115) Loading module: FFmpeg</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:115) Loading module: HDF5</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:115) Loading module: Nifti</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:115) Loading module: OIT</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:115) Loading module: OpactOpt</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:115) Loading module: Plotting</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:115) Loading module: UserInterfaceGL</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:115) Loading module: PlottingGL</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:115) Loading module: png</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::pngModule::pngModule:47) Using LibPNG Version 1.6.58</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:115) Loading module: PostProcessing</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:115) Loading module: PVM</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:115) Loading module: Python3GL</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:115) Loading module: Python3Qt</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:115) Loading module: VectorFieldVisualization</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:115) Loading module: VectorFieldVisualizationGL</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:115) Loading module: Volume</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:115) Loading module: WebBrowser</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:115) Loading module: WebQt</div>
+<div class='info nowrap'><span class='level'>Info: </span>(main:115) Loading Capabilities</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::OpenGLCapabilities::printInfo:126) GPU Vendor: Intel Inc.</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::OpenGLCapabilities::printInfo:127) GPU Renderer: Intel(R) UHD Graphics 630</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::OpenGLCapabilities::printInfo:130) Dedicated video memory: UNKNOWN</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::OpenGLCapabilities::printInfo:133) OpenGL Version: 4.1 INTEL-23.7.4</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::OpenGLCapabilities::printInfo:136) OpenGL Profile: Core</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::OpenGLCapabilities::printInfo:139) GLSL version: 4.10</div>
+<div class='warn nowrap'><span class='level'>Warn: </span>(inviwo::WorkspaceManager::configureWorkspaceDeserializerAndInfo:369) Loading old workspace (/Users/jenkins/actions-runner/_work/inviwo/inviwo/inviwo/modules/basegl/tests/regression/instance_renderer_animation/instance_renderer_animation.inv). Base module version: 11. Updating to version: 12.</div>
+<div class='warn nowrap'><span class='level'>Warn: </span>(inviwo::WorkspaceManager::configureWorkspaceDeserializerAndInfo:369) Loading old workspace (/Users/jenkins/actions-runner/_work/inviwo/inviwo/inviwo/modules/basegl/tests/regression/instance_renderer_animation/instance_renderer_animation.inv). BaseGL module version: 11. Updating to version: 13.</div>
+<div class='warn nowrap'><span class='level'>Warn: </span>(inviwo::Property::deserialize:293) Deserialized MeshCreator.meshType with class identifier: org.inviwo.OptionPropertyEnumUChar from a serialized property with a different class identifier: org.inviwo.OptionPropertyEnumInt</div>
+<div class='warn nowrap'><span class='level'>Warn: </span>(inviwo::Property::deserialize:293) Deserialized InstanceRenderer.camera.lookFrom with class identifier: org.inviwo.DoubleVec3RefProperty from a serialized property with a different class identifier: org.inviwo.FloatVec3RefProperty</div>
+<div class='warn nowrap'><span class='level'>Warn: </span>(inviwo::Property::deserialize:293) Deserialized InstanceRenderer.camera.lookTo with class identifier: org.inviwo.DoubleVec3RefProperty from a serialized property with a different class identifier: org.inviwo.FloatVec3RefProperty</div>
+<div class='warn nowrap'><span class='level'>Warn: </span>(inviwo::Property::deserialize:293) Deserialized InstanceRenderer.camera.near with class identifier: org.inviwo.DoubleRefProperty from a serialized property with a different class identifier: org.inviwo.FloatRefProperty</div>
+<div class='warn nowrap'><span class='level'>Warn: </span>(inviwo::Property::deserialize:293) Deserialized InstanceRenderer.camera.far with class identifier: org.inviwo.DoubleRefProperty from a serialized property with a different class identifier: org.inviwo.FloatRefProperty</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::Shader::linkShader:286) Id: 8 [img_texturequad.vert, img_texturequad.frag] <br/>WARNING: Could not find vertex shader attribute &apos;in_Color&apos; to match BindAttributeLocation request.<br/>WARNING: Could not find vertex shader attribute &apos;in_Normal&apos; to match BindAttributeLocation request.<br/>WARNING: Could not find fragment shader output &apos;PickingData&apos; to match FragDataBinding request.</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::Shader::linkShader:286) Id: 11 [img_texturequad.vert, img_noise.frag] <br/>WARNING: Could not find vertex shader attribute &apos;in_Color&apos; to match BindAttributeLocation request.<br/>WARNING: Could not find vertex shader attribute &apos;in_Normal&apos; to match BindAttributeLocation request.<br/>WARNING: Could not find fragment shader output &apos;PickingData&apos; to match FragDataBinding request.</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::Shader::linkShader:286) Id: 1 [image_identity.vert, background.frag] <br/>WARNING: Could not find vertex shader attribute &apos;in_Normal&apos; to match BindAttributeLocation request.<br/>WARNING: Output of vertex shader &apos;color_&apos; not read by fragment shader<br/>WARNING: Output of vertex shader &apos;texCoord_&apos; not read by fragment shader</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::Shader::linkShader:286) Id: 2 [InstanceRenderer.vert, InstanceRenderer.frag] <br/>WARNING: Output of vertex shader &apos;texCoord&apos; not read by fragment shader</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::Shader::linkShader:286) Id: 23 [standard.vert, img_copy.frag] <br/>WARNING: Could not find vertex shader attribute &apos;in_Normal&apos; to match BindAttributeLocation request.<br/>WARNING: Output of vertex shader &apos;color_&apos; not read by fragment shader</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::PythonLogger::onPythonExecutionOutput:41) FPS 1024x1024 instances 4096 mesh resolution 64 16.92507448338081</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::PythonLogger::onPythonExecutionOutput:41) FPS 1024x1024 instances 4096 mesh resolution 32 17.32317792290201</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::PythonLogger::onPythonExecutionOutput:41) FPS 1024x1024 instances 4096 mesh resolution 16 17.489327276550018</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::PythonLogger::onPythonExecutionOutput:41) FPS 1024x1024 instances  512 mesh resolution 64 65.84510586881404</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::PythonLogger::onPythonExecutionOutput:41) FPS 1024x1024 instances  512 mesh resolution 32 80.6677206759378</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::PythonLogger::onPythonExecutionOutput:41) FPS 1024x1024 instances  512 mesh resolution 16 70.41175705080326</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::PythonLogger::onPythonExecutionOutput:41) FPS 1024x1024 instances   64 mesh resolution 64 106.03041136263897</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::PythonLogger::onPythonExecutionOutput:41) FPS 1024x1024 instances   64 mesh resolution 32 106.3651618959458</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::PythonLogger::onPythonExecutionOutput:41) FPS 1024x1024 instances   64 mesh resolution 16 97.9198226191272</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::PythonLogger::onPythonExecutionOutput:41) FPS  512x 512 instances 4096 mesh resolution 64 18.539731335275807</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::PythonLogger::onPythonExecutionOutput:41) FPS  512x 512 instances 4096 mesh resolution 32 18.802513012551792</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::PythonLogger::onPythonExecutionOutput:41) FPS  512x 512 instances 4096 mesh resolution 16 18.68008306909436</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::PythonLogger::onPythonExecutionOutput:41) FPS  512x 512 instances  512 mesh resolution 64 79.08730066102159</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::PythonLogger::onPythonExecutionOutput:41) FPS  512x 512 instances  512 mesh resolution 32 99.04967894169658</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::PythonLogger::onPythonExecutionOutput:41) FPS  512x 512 instances  512 mesh resolution 16 102.97640997263055</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::PythonLogger::onPythonExecutionOutput:41) FPS  512x 512 instances   64 mesh resolution 64 109.19527230386467</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::PythonLogger::onPythonExecutionOutput:41) FPS  512x 512 instances   64 mesh resolution 32 111.05325287100267</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::PythonLogger::onPythonExecutionOutput:41) FPS  512x 512 instances   64 mesh resolution 16 110.73892988575416</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::PythonLogger::onPythonExecutionOutput:41) FPS  256x 256 instances 4096 mesh resolution 64 19.523311790420834</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::PythonLogger::onPythonExecutionOutput:41) FPS  256x 256 instances 4096 mesh resolution 32 19.190648744148163</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::PythonLogger::onPythonExecutionOutput:41) FPS  256x 256 instances 4096 mesh resolution 16 19.273862147047108</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::PythonLogger::onPythonExecutionOutput:41) FPS  256x 256 instances  512 mesh resolution 64 96.49653912617032</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::PythonLogger::onPythonExecutionOutput:41) FPS  256x 256 instances  512 mesh resolution 32 99.43164041062919</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::PythonLogger::onPythonExecutionOutput:41) FPS  256x 256 instances  512 mesh resolution 16 75.63493371017684</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::PythonLogger::onPythonExecutionOutput:41) FPS  256x 256 instances   64 mesh resolution 64 105.60039173750762</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::PythonLogger::onPythonExecutionOutput:41) FPS  256x 256 instances   64 mesh resolution 32 102.4532747971501</div>
+<div class='info nowrap'><span class='level'>Info: </span>(inviwo::PythonLogger::onPythonExecutionOutput:41) FPS  256x 256 instances   64 mesh resolution 16 111.15137209229306</div>
+<div class='warn nowrap'><span class='level'>Warn: </span>(main:143) 7 warnings generated during startup</div>
