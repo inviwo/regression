@@ -1,0 +1,36 @@
+{
+    "base/amirameshreader": {
+        "date": "2026-06-16T10:45:19.745713",
+        "module": "base",
+        "name": "amirameshreader",
+        "path": "/Users/jenkins/actions-runner/_work/inviwo/inviwo/inviwo/modules/base/tests/regression/amirameshreader",
+        "script": "",
+        "config": {},
+        "outputdir": "/Users/jenkins/actions-runner/_work/inviwo/inviwo/regression/macos/refs/pull/2000/merge/base/amirameshreader/2026-06-16T10_45_19.745713",
+        "command": "/Users/jenkins/actions-runner/_work/inviwo/inviwo/build/bin/inviwo.app/Contents/MacOS/inviwo -q -o /Users/jenkins/actions-runner/_work/inviwo/inviwo/regression/macos/refs/pull/2000/merge/base/amirameshreader/2026-06-16T10_45_19.745713 -s imgtest/UPN -l log.txt -w /Users/jenkins/actions-runner/_work/inviwo/inviwo/inviwo/modules/base/tests/regression/amirameshreader/amirameshreader.inv",
+        "timeout": false,
+        "output": "",
+        "errors": "qt.qpa.fonts: Populating font family aliases took 116 ms. Replace uses of missing font family \"Segoe UI\" with one that exists to avoid this cost. \n2026-06-16 10:45:23.401 inviwo[82177:24363153] ApplePersistence=NO\n2026-06-16 10:45:30.846 inviwo Helper (Alerts)[82186:24363436] ApplePersistence=NO\n",
+        "log": "log.txt",
+        "returncode": 0,
+        "elapsed_time": 12.992708206176758,
+        "images": {
+            "refs": [
+                "PlaneMesh.png",
+                "CylinderWireframe.png",
+                "CylinderMesh.png",
+                "PlaneWireframe.png"
+            ],
+            "imgs": [
+                "CylinderWireframe.png",
+                "PlaneWireframe.png",
+                "PlaneMesh.png",
+                "CylinderMesh.png"
+            ],
+            "missing_refs": [],
+            "missing_imgs": [],
+            "tests": [
+                {
+                    "image": "CylinderWireframe.png",
+                    "difference_percent": 0.0,
+                    "difference_pixels": 
